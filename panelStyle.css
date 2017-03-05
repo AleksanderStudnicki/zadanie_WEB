@@ -1,0 +1,194 @@
+body
+{
+    font-family: 'Oswald', sans-serif;
+    background-image: url("bgr2.jpg") ;
+
+    background-size: 100%;
+    margin: 0 !important;
+}
+
+.controlPanel
+{
+
+
+    -webkit-box-shadow: 0px 10px 40px -4px rgba(71,67,71,0.8);
+    -moz-box-shadow: 0px 10px 40px -4px rgba(71,67,71,0.8);
+    box-shadow: 0px 10px 40px -4px rgba(71,67,71,0.8);
+
+
+
+    background-color: rgba(245,245,245,0.7);
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.textL
+{
+    margin: 0;
+    margin-left: 10px;
+    text-align: left;
+    -webkit-user-select: none;
+    cursor:default;
+    float: left;
+}
+
+.textR
+{
+    margin: 0;
+    margin-right: 10px;
+    text-align: right;
+    float: right;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+a:link
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-shadow: 4px 1px 11px rgba(150, 150, 150, 1);
+}
+
+a:visited
+{
+    color:black;
+}
+
+.posts
+{
+    overflow: scroll;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(245,245,245,0.8);
+    width: 40% ;
+    max-height: 500px;
+    min-height: 100px;
+}
+
+#toogle
+{
+    -webkit-user-select: none;
+    text-align: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 30px;
+    margin-left: auto ;
+    margin-right: auto;
+    background-color: rgba(245,245,245,0.8);
+    width: 40%  ;
+    height: auto;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#toogle:hover
+{
+    background-color: rgba(222, 184, 135, 0.3);
+}
+
+#add
+{
+    display: none;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(245,245,245,0.8);
+    width: 40% ;
+    height: auto;
+}
+
+.addPost
+{
+    float:left;
+    background-color: rgba(245,245,245,0.6);
+    font-family: 'Oswald', sans-serif;
+    height: 125px;
+    width: 72%;
+    font-size:15px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    margin-bottom: 4px;
+    margin-left: 10px;
+    margin-top: 4px;
+    border-radius: 8px;
+}
+
+.addPost:focus
+{
+ outline: none;
+}
+
+
+.addButton
+{
+    float:right;
+    width: auto;
+    height: auto;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.addButton:hover
+{
+    background-color: rgba(222, 184, 135, 0.3);
+    border-radius: 16px;
+}
+
+.user
+{
+    font-size:15px;
+    margin-left: 10px;
+    float:left;
+}
+
+.date
+{
+    font-size: 15px;
+    margin-right: 20px;
+    float: right;
+}
+
+.data
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.frame
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 1px groove black;
+    border-bottom: 1px groove black;
+}
+
+.erase
+{
+    float:right;
+    font-size:15px;
+    margin-right: 20px;
+}
+
