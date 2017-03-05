@@ -29,6 +29,7 @@ if ($user_id==$_SESSION['id'])
 
 else
 {
+    $connection->close();
     header("Location: panel.php");
 }
 
